@@ -7,7 +7,7 @@
 
     <!-- Definition for textEditor bean -->
     <bean id = "textEditor" class = "com.tutorialspoint.TextEditor">
-        <constructor-arg ref = "spellChecker"/>
+        <property name = "spellChecker" ref = "spellChecker"/>
     </bean>
 
     <!-- Definition for spellChecker bean -->
